@@ -1,4 +1,4 @@
-# @wooritech/eslint-config-ts
+# @wooritech/eslint-config
 
 이 패키지는 우리테크 JavaScript/React/TypeScript 개발을 위한 ESLint 구성용 패키지입니다.
 
@@ -7,7 +7,7 @@
 ### 설치
 
 ```sh
-npm install --save-dev @wooritech/eslint-config-ts
+npm install --save-dev @wooritech/eslint-config
 ```
 
 ### Peer Dependencies
@@ -19,7 +19,7 @@ npm install --save-dev @wooritech/eslint-config-ts
 만약 해당 패키지들의 다른 버전을 사용하지 않는 사실이 명확할 경우 **npm 5** 이상에서 **npx** 를 통해 일괄로 설치할 수 있습니다.
 
 ```sh
-npx install-peerdeps --dev @wooritech/eslint-config-ts
+npx install-peerdeps --dev @wooritech/eslint-config
 ```
 
 ### Configuration
@@ -28,6 +28,6 @@ npx install-peerdeps --dev @wooritech/eslint-config-ts
 
 ```json
 "eslintConfig": {
-  "extends": "@wooritech/eslint-config-ts"
+  "extends": "@wooritech/eslint-config"
 }
 ```
