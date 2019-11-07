@@ -2,4 +2,4 @@
 
 ## packages
 
-- [eslint-config-ts](/packages/eslint-config-ts)
+- [eslint-config](/packages/eslint-config)
