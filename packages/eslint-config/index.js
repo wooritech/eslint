@@ -1,21 +1,15 @@
 module.exports = {
-    parser: 'babel-eslint',
-    parserOptions: {
-      allowImportExportEverywhere: true
-    },
     env: {
       node: true,
       browser: true
     },
-    plugins: [
-      'meteor'
-    ],
+    parserOptions: {
+      ecmaVersion: 2018,
+      sourceType: 'module',
+    },
     extends: [
       'airbnb',
     ],
-    settings: {
-      'import/resolver': 'meteor'
-    },
     rules: {
       'react/jsx-filename-extension': 0,
       'import/no-absolute-path': 0,

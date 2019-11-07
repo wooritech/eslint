@@ -1,6 +1,6 @@
 {
   "name": "@wooritech/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wooritech/eslint-config.git"
+    "url": "git+https://github.com/wooritech/eslint.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -17,16 +17,15 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wooritech/eslint-config/issues"
+    "url": "https://github.com/wooritech/eslint/issues"
   },
-  "homepage": "https://github.com/wooritech/eslint-config#readme",
+  "homepage": "https://github.com/wooritech/eslint#readme",
   "peerDependencies": {
-    "babel-eslint": ">= 7",
     "eslint": ">= 3",
     "eslint-config-airbnb": ">= 13",
     "eslint-plugin-import": ">= 2",
     "eslint-plugin-jsx-a11y": ">= 2",
     "eslint-plugin-react": ">= 6",
-    "@typescript-eslint/eslint-plugin": ">= 2"
+    "eslint-plugin-react-hooks": ">= 2.2.0"
   }
 }
