@@ -1,6 +1,6 @@
 {
   "name": "@wooritech/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,12 +20,14 @@
     "url": "https://github.com/wooritech/eslint/issues"
   },
   "homepage": "https://github.com/wooritech/eslint#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1"
+  },
   "peerDependencies": {
-    "eslint": ">= 3",
-    "eslint-config-airbnb": ">= 13",
-    "eslint-plugin-import": ">= 2",
-    "eslint-plugin-jsx-a11y": ">= 2",
-    "eslint-plugin-react": ">= 6",
-    "eslint-plugin-react-hooks": ">= 2.2.0"
+    "eslint": "^5.16.0 || ^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
